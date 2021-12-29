@@ -27,11 +27,18 @@ public class Java_practice {
         arrayList.add(2);
         arrayList.add(3);
         arrayList.add(4);
-        for(int i =0; i< arrayList.size();i++){
-            System.out.print(arrayList.get(i) + ", "); //Integer + String = String
+        for(int i =0; i< arrayList.size();i++) {
+            System.out.print(arrayList.get(i) + ", "); //Integer + String = String + String -> 묵시적형변환
+
         }
 
+        System.out.println();
+        for(Integer item : arrayList){ //JAva에서 새로운 문법 ->인덱스가 필요없을 때 사용
+            System.out.print(item + ", ");
+        }
 
+        System.out.println();
+        arrayList.forEach(item -> System.out.print(item + ", "));
     }
 }
 
