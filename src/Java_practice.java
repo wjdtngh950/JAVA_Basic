@@ -22,7 +22,14 @@ public class Java_practice {
 
         //Collection = C++ STL
         //List 자료구조: 배열기반 리스트, 연결리스트
-        ArrayList<>
+        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
+        arrayList.add(4);
+        for(int i =0; i< arrayList.size();i++){
+            System.out.print(arrayList.get(i) + ", "); //Integer + String = String
+        }
 
 
     }
