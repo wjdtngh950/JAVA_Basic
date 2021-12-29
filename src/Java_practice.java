@@ -37,8 +37,12 @@ public class Java_practice {
             System.out.print(item + ", ");
         }
 
+       // arrow function
         System.out.println();
         arrayList.forEach(item -> System.out.print(item + ", "));
+
+       System.out.println();
+        arrayList.stream().map(val -> val + 3).forEach(item -> System.out.print(item + ", "));
     }
 }
 
