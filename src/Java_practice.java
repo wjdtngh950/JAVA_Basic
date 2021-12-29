@@ -1,6 +1,6 @@
 public class Java_practice {
     public static void main(String[] args) {
-        System.out.println("hi how are u");
+        System.out.println("hello world");
     }
 }
 
