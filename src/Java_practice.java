@@ -41,8 +41,26 @@ public class Java_practice {
         System.out.println();
         arrayList.forEach(item -> System.out.print(item + ", "));
 
+       //stream : map, reduce, filter
        System.out.println();
         arrayList.stream().map(val -> val + 3).forEach(item -> System.out.print(item + ", "));
+        System.out.println();
+        arrayList.stream().filter(val -> val%2==0).forEach(item -> System.out.print(item + ", "));
+
+        //while
+        System.out.println();
+        int index = 0;
+        while(index < arrayList.size()){
+            System.out.print(arrayList.get(index) + ", ");
+            index++;
+        }
+
+        System.out.println();
+        index =0;
+        do
+            System.out.print(arrayList.get(index) + ", ");
+            index++;
+        } while(index < arrayList.size());
     }
 }
 
