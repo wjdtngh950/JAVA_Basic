@@ -57,7 +57,7 @@ public class Java_practice {
 
         System.out.println();
         index =0;
-        do
+        do{
             System.out.print(arrayList.get(index) + ", ");
             index++;
         } while(index < arrayList.size());
